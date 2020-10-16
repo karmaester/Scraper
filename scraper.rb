@@ -1,10 +1,17 @@
 require 'nokogiri'
 require 'open-uri'
+require 'byebug'
 
-doc = Nokogiri::HTML(URI.open('https://listado.mercadolibre.cl/audifonos-sennheiser'))
+def scraper
+    # doc = Nokogiri::HTML(URI.open('https://listado.mercadolibre.cl/audifonos-sennheiser'))
+    doc = Nokogiri::HTML(URI.open('https://listado.mercadolibre.cl/doctor-who'))
 
-puts doc.xpath("//span")
-
-doc.css('price-tag-fraction').each do |link|
-  puts link.content
+    items = doc.css('li.ui-search-layout__item')
+    prices = doc.css('span.price-tag')
+    prices.css('span.price-tag-fraction').each do |price|
+        puts price.text
+      end
+    byebug
 end
+
+scraper
