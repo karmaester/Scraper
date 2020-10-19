@@ -15,4 +15,4 @@ def scraper(url)
   [total_pages, prices]
 end
 
-p scraper('https://listado.mercadolibre.cl/doctor-who')
+scraper('https://listado.mercadolibre.cl/doctor-who')
