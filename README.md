@@ -2,9 +2,7 @@
 
 # Scraper
 
-> This Scraper gives you an array with all of the articles prices of the url(from mercadolibre.com) you pass as an argument for the scraper method.
-
-![screenshot](./scraper.png)
+> This Scraper gives you an array with all of the articles prices resulting from a search in www.mercadolibre.com
 
 ## Built With
 
@@ -15,8 +13,7 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**This program lets you get an array of the prices from all articles resulting in a www.mercadolibre.com search. **
 
 
 To get a local copy up and running follow these simple example steps.
@@ -33,26 +30,28 @@ gems:
 
 ### Usage
 
-A few examples of calling the scraper method:
+Launch the program with the command ruby main.rb
 
-scraper('https://listado.mercadolibre.cl/doctor-who')
+You will be asked to input a search for an item in mercadolibre you want the prices for.
 
-scraper('https://listado.mercadolibre.cl/audifonos-sennheiser')
+Some valid and not too long-results inputs are:
 
-Once you run it you'll be in an Byebug instance
+ doctor-who
+ 
+ buzz
 
-![screenshot](./app_screenshot.png)
+The program will iterate through the result pages and output the page that is checking at the moment.
+![screenshot](./run1.png)
 
-Write prices to see the array
+Finally it will output the array with all of the prices for this result.
 
-![screenshot](./app_screenshot.png)
-
-Write total_pages to see the amount of pages with results for your search
+![screenshot](./run2.png)
 
 ### Run tests
 
-### Deployment
+Tested with Rspec
 
+![screenshot](./test.png)
 
 
 ## Authors
@@ -76,6 +75,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 Microverse capstone
+
 Nokogiri.org
 
 ## 📝 License
