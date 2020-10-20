@@ -6,5 +6,4 @@ input = gets.chomp
 prices = program.scraper('https://listado.mercadolibre.cl/' + input)
 
 puts 'Prices for this item are:'
-puts prices
-
+print prices
