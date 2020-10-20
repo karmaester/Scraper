@@ -1,4 +1,4 @@
-# rubocop:disable Metrics/MethodLength, Lint/Void
+# rubocop:disable Metrics/MethodLength, Lint/Void, Style/IfUnlessModifier
 require 'nokogiri'
 require 'open-uri'
 require 'byebug'
@@ -31,4 +31,4 @@ class Scraper
   end
 end
 
-# rubocop:enable Metrics/MethodLength, Lint/Void
+# rubocop:enable Metrics/MethodLength, Lint/Void, Style/IfUnlessModifier
