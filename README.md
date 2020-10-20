@@ -37,6 +37,7 @@ You will be asked to input a search for an item in mercadolibre you want the pri
 Some valid and not too long-results inputs are:
 
  doctor-who
+ 
  buzz
 
 The program will iterate through the result pages and output the page that is checking at the moment.
@@ -74,6 +75,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 Microverse capstone
+
 Nokogiri.org
 
 ## 📝 License
