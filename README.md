@@ -4,7 +4,7 @@
 
 > This Scraper gives you an array with all of the articles prices of the url(from mercadolibre.com) you pass as an argument for the scraper method.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./scraper.png)
 
 ## Built With
 
