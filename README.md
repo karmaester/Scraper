@@ -1,23 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Scraper
 
-> One paragraph statement about the project.
+> This Scraper gives you an array with all of the articles prices of the url(from mercadolibre.com) you pass as an argument for the scraper method.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./scraper.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- Nokogiri
+- open-URI
+- Byebug
 
 ## Getting Started
 
@@ -29,11 +23,31 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
+Ruby language
 
-### Install
+gems:
+
+- Nokogiri
+- Open-URI
+- Byebug
 
 ### Usage
+
+A few examples of calling the scraper method:
+
+scraper('https://listado.mercadolibre.cl/doctor-who')
+
+scraper('https://listado.mercadolibre.cl/audifonos-sennheiser')
+
+Once you run it you'll be in an Byebug instance
+
+![screenshot](./app_screenshot.png)
+
+Write prices to see the array
+
+![screenshot](./app_screenshot.png)
+
+Write total_pages to see the amount of pages with results for your search
 
 ### Run tests
 
@@ -43,23 +57,17 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **karmaester**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/karmaester)
+- Twitter: [@twitterhandle](https://twitter.com/karmaendlich)
+- Linkedin: [linkedin](https://www.linkedin.com/in/khristian-rojas/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/karmaester/Scraper/issues).
 
 ## Show your support
 
@@ -67,10 +75,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Microverse capstone
+Nokogiri.org
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/karmaester/Scraper/blob/development/LICENSE) licensed.
