@@ -1,7 +1,10 @@
-require '../scraper.rb'
+require_relative '../lib/scraper_methods.rb'
 
-describe '#scraper' do
-    it 'returns an array' do
-        expect(scraper('https://listado.mercadolibre.cl/doctor-who')).to eql(Object)
+describe Scraper do
+    let(:program) { Scraper.new }
+    describe '#scraper' do
+        it 'returns an array' do
+            expect(program.scraper).to be_an_instance_of(Array)
+        end
     end
 end
