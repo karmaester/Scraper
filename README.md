@@ -41,17 +41,17 @@ Some valid and not too long-results inputs are:
  buzz
 
 The program will iterate through the result pages and output the page that is checking at the moment.
-![screenshot](./run1.png)
+![screenshot](./images/run1.png)
 
 Finally it will output the array with all of the prices for this result.
 
-![screenshot](./run2.png)
+![screenshot](./run2/images.png)
 
 ### Run tests
 
 Tested with Rspec
 
-![screenshot](./test.png)
+![screenshot](./test/images.png)
 
 
 ## Authors
