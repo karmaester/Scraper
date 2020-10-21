@@ -30,7 +30,11 @@ gems:
 
 ### Usage
 
-Launch the program with the command ruby main.rb
+Launch the program with the command
+
+```ruby
+ruby bin/main.rb 
+```
 
 You will be asked to input a search for an item in mercadolibre you want the prices for.
 
