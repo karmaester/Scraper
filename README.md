@@ -18,11 +18,11 @@
 
 To get a local copy up and running follow these simple example steps.
 
--Go to the repository main page.
+- Go to the repository main page.
 
--Press the "Code" button and copy the repo link.
+- Press the "Code" button and copy the repo link.
 
--Clone it in you local machine using git command "git clone <link>".
+- Clone it in you local machine using git command "git clone <link>".
 
 ### Prerequisites
 
