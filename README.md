@@ -18,6 +18,12 @@
 
 To get a local copy up and running follow these simple example steps.
 
+-Go to the repository main page.
+
+-Press the "Code" button and copy the repo link.
+
+-Clone it in you local machine using git command "git clone <link>".
+
 ### Prerequisites
 
 Ruby language
@@ -26,9 +32,14 @@ gems:
 
 - Nokogiri
 - Open-URI
-- Byebug
 
 ### Usage
+
+Install dependencies using:
+
+```ruby
+bundle install
+```
 
 Launch the program with the command
 
