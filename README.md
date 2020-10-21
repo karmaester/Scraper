@@ -54,12 +54,9 @@ Some valid inputs are:
  
  buzz
 
-The program will iterate through the result pages and output the page that is checking at the moment.
+The program will iterate through the result pages and output the highest price, lowest price and total of prices found for that article.
 ![screenshot](./images/run1.png)
 
-Finally it will output the array with all of the prices for this result.
-
-![screenshot](./images/test.png)
 
 ### Run tests
 
