@@ -2,18 +2,17 @@
 
 # Scraper
 
-> This Scraper gives you an array with all of the articles prices resulting from a search in www.mercadolibre.com
+> This Scraper gives you the highest price, lowest price and total of all the articles prices resulting from a search in www.mercadolibre.com
 
 ## Built With
 
 - Ruby
 - Nokogiri
 - open-URI
-- Byebug
 
 ## Getting Started
 
-**This program lets you get an array of the prices from all articles resulting in a www.mercadolibre.com search.**
+**This program lets you get highest price, lowest price and total of prices from all articles resulting in a www.mercadolibre.com search.**
 
 
 To get a local copy up and running follow these simple example steps.
@@ -49,7 +48,7 @@ ruby bin/main.rb
 
 You will be asked to input a search for an item in mercadolibre you want the prices for.
 
-Some valid and not too long-results inputs are:
+Some valid inputs are:
 
  doctor-who
  
