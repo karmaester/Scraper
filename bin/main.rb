@@ -6,9 +6,9 @@ input = gets.chomp.strip.downcase
 puts 'Hold tight, this could take a while...'
 prices = program.get_prices("https://listado.mercadolibre.cl/#{input}")
 
-print 'Highest price for this item is:'
+print 'Highest price for this item is: '
 puts prices.max
 print 'Lowest price for this item is: '
 puts prices.min
-print 'Number of prices checked '
+print 'Number of prices checked: '
 puts prices.count
