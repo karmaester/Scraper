@@ -56,6 +56,7 @@ Some valid inputs are:
  buzz
 
 The program will iterate through the result pages and output the highest price, lowest price and total of prices found for that article.
+
 ![screenshot](./images/run1.png)
 
 
