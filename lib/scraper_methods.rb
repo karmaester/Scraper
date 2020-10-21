@@ -14,9 +14,7 @@ class Scraper
       doc = Nokogiri::HTML(URI.open("#{url}_Desde_#{num}"))
       doc.css('li.ui-search-layout__item div.ui-search-price__second-line span.price-tag span.price-tag-fraction')
         .each_with_index do |price, index|
-        if index.even? && !price.nil? # since the not evens are the payment cuotes
-          prices.push(price.text.delete('.').to_i)
-        end
+        index.even? && !price.nil? ? prices.push(price.text.delete('.').to_i) : next
       end
       page += 1
       num += 50
