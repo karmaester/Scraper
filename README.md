@@ -9,6 +9,7 @@
 - Ruby
 - Nokogiri
 - open-URI
+- Bundler
 
 ## Getting Started
 
@@ -85,9 +86,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Microverse capstone
+ - Microverse
 
-Nokogiri.org
+ - Nokogiri.org
+ 
+ - Stand up Team
 
 ## 📝 License
 
