@@ -1,7 +1,6 @@
 # rubocop:disable Security/Open
 require 'nokogiri'
 require 'open-uri'
-require 'byebug'
 
 class Scraper
   def initialize; end
@@ -16,7 +15,7 @@ class Scraper
       doc = Nokogiri::HTML(URI.open("#{url}_Desde_#{num}"))
       doc.css('li.ui-search-layout__item div.ui-search-price__second-line span.price-tag span.price-tag-fraction')
         .each_with_index do |price, index|
-        if index.even? && !price.nil? # since the not evens are the payment cuotes
+        if index.even? && !price.nil? do# since the not evens are the payment cuotes
           prices.push(price.text.delete('.').to_i)
         end
       end

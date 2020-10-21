@@ -1,4 +1,3 @@
-# rubocop:disable Security/Open
 require 'nokogiri'
 require 'open-uri'
 require_relative '../lib/scraper_methods'
@@ -38,5 +37,3 @@ describe Scraper do
     end
   end
 end
-
-# rubocop:enable Security/Open
