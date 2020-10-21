@@ -33,5 +33,4 @@ class Scraper
   def scraper(url)
     Nokogiri::HTML(URI.open(url))
   end
-
 end
