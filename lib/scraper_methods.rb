@@ -20,7 +20,6 @@ class Scraper
           prices.push(price.text.delete('.').to_i)
         end
       end
-      puts "Cheking page #{page}"
       page += 1
       num += 50
     end
