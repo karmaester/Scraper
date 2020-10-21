@@ -1,65 +1,85 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Scraper
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+> This Scraper gives you the highest price, lowest price and total of all the articles prices resulting from a search in www.mercadolibre.com
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- Nokogiri
+- open-URI
+- Bundler
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**This program lets you get highest price, lowest price and total of prices from all articles resulting in a www.mercadolibre.com search.**
 
 
 To get a local copy up and running follow these simple example steps.
 
+- Go to the repository main page.
+
+- Press the "Code" button and copy the repo link.
+
+- Clone it in you local machine using git command "git clone <link>".
+
 ### Prerequisites
 
-### Setup
+Ruby language
 
-### Install
+gems:
+
+- Nokogiri
+- Open-URI
 
 ### Usage
 
+Install dependencies using:
+
+```ruby
+bundle install
+```
+
+Launch the program with the command
+
+```ruby
+ruby bin/main.rb 
+```
+
+You will be asked to input a search for an item in mercadolibre you want the prices for.
+
+Some valid inputs are:
+
+ doctor-who
+ 
+ buzz
+
+The program will iterate through the result pages and output the highest price, lowest price and total of prices found for that article.
+
+![screenshot](./images/run1.png)
+
+
 ### Run tests
 
-### Deployment
+Tested with Rspec
 
+![screenshot](./images/test.png)
 
 
 ## Authors
 
-👤 **Author1**
+👤 **karmaester**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/karmaester)
+- Twitter: [@twitterhandle](https://twitter.com/karmaendlich)
+- Linkedin: [linkedin](https://www.linkedin.com/in/khristian-rojas/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/karmaester/Scraper/issues).
 
 ## Show your support
 
@@ -67,10 +87,12 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+ - Microverse
+
+ - Nokogiri.org
+ 
+ - Stand up Team
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/karmaester/Scraper/blob/development/LICENSE) licensed.
