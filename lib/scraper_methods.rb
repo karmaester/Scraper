@@ -1,4 +1,3 @@
-# rubocop:disable Security/Open
 require 'nokogiri'
 require 'open-uri'
 
@@ -37,5 +36,3 @@ class Scraper
     Nokogiri::HTML(URI.open(url))
   end
 end
-
-# rubocop:enable Security/Open
